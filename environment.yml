@@ -3,7 +3,4 @@ dependencies:
   - streamlit
   - numpy
   - pandas
-  - datetime
-  - json
   - matplotlib
-  - calendar
