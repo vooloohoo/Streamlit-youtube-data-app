@@ -1,6 +1,0 @@
-name: base
-dependencies:
-  - streamlit
-  - numpy
-  - pandas
-  - matplotlib
