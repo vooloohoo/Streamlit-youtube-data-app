@@ -145,7 +145,7 @@ if file is not None:
         fig, ax = plt.subplots()
         ax.plot(df_graph[month],label="number of video in the month")
         ax.plot(df_graph["Mean"],label="mean over the year", alpha=0.5)
-        plt.grid(b=True, color='0.95')
+        plt.grid(visible=True, color='0.95')
         x=df_graph.index.array
         plt.xlim(x[0],x[-1])
         plt.legend()
